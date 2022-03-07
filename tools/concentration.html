@@ -97,6 +97,7 @@
           break;
         case 'ug':
           massConcentration /= 1000 * 1000;
+          break;
         default:
           throw new Error('浓度单位错误');
       }
@@ -146,6 +147,7 @@
       switch (elemMassConcentrationMassType.value) {
         case 'kg':
           massConcentration /= 1000;
+          break;
         case 'g':
           break;
         case 'mg':
@@ -153,6 +155,7 @@
           break;
         case 'ug':
           massConcentration *= 1000 * 1000;
+          break;
         default:
           throw new Error('浓度单位错误');
       }
