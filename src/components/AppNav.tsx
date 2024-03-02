@@ -7,7 +7,7 @@ export default function AppNav() {
     <Box sx={{ flexGrow: 1 }} paddingBottom={2}>
       <AppBar position='static'>
         <Toolbar>
-          <Link href="/" color="secondary" component={NextLink}>首页</Link>
+          <Link href="/" color='white' underline='none' component={NextLink}>首页</Link>
         </Toolbar>
       </AppBar>
     </Box>

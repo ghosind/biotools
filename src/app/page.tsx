@@ -13,10 +13,10 @@ export default function Home() {
       <Box sx={{width: '100%'}}>
         <Stack spacing={2}>
           <Paper className={styles.list_item}>
-            <Link href="/concentration" color="secondary" component={NextLink}>物质的量浓度-浓度计算</Link>
+            <Link href="/concentration" color="primary" underline='none' component={NextLink}>物质的量浓度-浓度计算</Link>
           </Paper>
           <Paper className={styles.list_item}>
-            <Link href="/mass-concentration" color="secondary" component={NextLink}>物质的量浓度-体积-质量计算</Link>
+            <Link href="/mass-concentration" color="primary" underline='none' component={NextLink}>物质的量浓度-体积-质量计算</Link>
           </Paper>
         </Stack>
       </Box>
